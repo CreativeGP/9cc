@@ -9,7 +9,7 @@ try() {
     actual="$?"
 
     if [ "$actual" != "$expected" ]; then
-        echo "$input extected, but got $actual"
+        echo "[$input] $expected extected, but got $actual"
         exit 1
     fi
 }
